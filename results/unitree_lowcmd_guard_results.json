@@ -1,0 +1,25 @@
+{
+ "test": "Unitree Z1 spec-based LowCmd stream through PHM spec-layer guard (synthetic, spec-accurate)",
+ "date": "2026-10-13 16:58:00",
+ "profile": {
+  "machine": "Unitree Z1 6-DOF arm",
+  "n_joints": 6,
+  "source_url": "https://raw.githubusercontent.com/unitreerobotics/unitree_ros/master/robots/z1_description/xacro/z1.urdf"
+ },
+ "n_frames": 2000,
+ "n_benign": 1994,
+ "n_injected": 6,
+ "false_positives_on_benign": 0,
+ "false_negatives_on_injected": [],
+ "caught_injected": 6,
+ "stream_verdict": "BLOCK",
+ "guard_latency_us_p50": 6.5,
+ "guard_latency_us_p95": 7.42,
+ "wall_ms_total": 35.9,
+ "gate_criteria": "FP=0 and FN=0",
+ "gate_verdict": "PASS",
+ "honesty_notes": [
+  "synthetic frames within official URDF limits; no real robot data",
+  "spec-layer rules only; FK collision / singularity layers are closed-source"
+ ]
+}
