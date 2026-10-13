@@ -65,6 +65,9 @@ claim.
    not replace Unitree's built-in protections.
 5. **Verifier swap-in** verified only for the bundled spec-layer; no
    third-party verifier swap tested yet.
+6. **Integrity caliber**: the artifact's hash lives in the standalone
+   `results/unitree_lowcmd_guard_results.sha256` sidecar (git-style, not
+   self-referential). Verify from repo root: `sha256sum -c SHA256SUMS.txt`.
 
 ## Run
 
