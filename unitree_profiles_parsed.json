@@ -1,0 +1,352 @@
+{
+ "z1": {
+  "machine": "Unitree Z1 6-DOF arm",
+  "source_url": "https://raw.githubusercontent.com/unitreerobotics/unitree_ros/master/robots/z1_description/xacro/z1.urdf",
+  "n_joints": 6,
+  "joints": [
+   {
+    "name": "joint1",
+    "q_lower": -2.6179938779914944,
+    "q_upper": 2.6179938779914944,
+    "dq_max": 3.1415,
+    "tau_max": 30.0
+   },
+   {
+    "name": "joint2",
+    "q_lower": 0.0,
+    "q_upper": 2.9670597283903604,
+    "dq_max": 3.1415,
+    "tau_max": 60.0
+   },
+   {
+    "name": "joint3",
+    "q_lower": -2.8797932657906435,
+    "q_upper": 0.0,
+    "dq_max": 3.1415,
+    "tau_max": 30.0
+   },
+   {
+    "name": "joint4",
+    "q_lower": -1.5184364492350666,
+    "q_upper": 1.5184364492350666,
+    "dq_max": 3.1415,
+    "tau_max": 30.0
+   },
+   {
+    "name": "joint5",
+    "q_lower": -1.3439035240356338,
+    "q_upper": 1.3439035240356338,
+    "dq_max": 3.1415,
+    "tau_max": 30.0
+   },
+   {
+    "name": "joint6",
+    "q_lower": -2.792526803190927,
+    "q_upper": 2.792526803190927,
+    "dq_max": 3.1415,
+    "tau_max": 30.0
+   }
+  ]
+ },
+ "go2": {
+  "machine": "Unitree Go2 quadruped (12 leg joints)",
+  "source_url": "https://raw.githubusercontent.com/unitreerobotics/unitree_ros/master/robots/go2_description/urdf/go2_description.urdf",
+  "n_joints": 12,
+  "joints": [
+   {
+    "name": "FL_hip_joint",
+    "q_lower": -1.0472,
+    "q_upper": 1.0472,
+    "dq_max": 30.1,
+    "tau_max": 23.7
+   },
+   {
+    "name": "FL_thigh_joint",
+    "q_lower": -1.5708,
+    "q_upper": 3.4907,
+    "dq_max": 30.1,
+    "tau_max": 23.7
+   },
+   {
+    "name": "FL_calf_joint",
+    "q_lower": -2.7227,
+    "q_upper": -0.83776,
+    "dq_max": 15.7,
+    "tau_max": 45.43
+   },
+   {
+    "name": "FR_hip_joint",
+    "q_lower": -1.0472,
+    "q_upper": 1.0472,
+    "dq_max": 30.1,
+    "tau_max": 23.7
+   },
+   {
+    "name": "FR_thigh_joint",
+    "q_lower": -1.5708,
+    "q_upper": 3.4907,
+    "dq_max": 30.1,
+    "tau_max": 23.7
+   },
+   {
+    "name": "FR_calf_joint",
+    "q_lower": -2.7227,
+    "q_upper": -0.83776,
+    "dq_max": 15.7,
+    "tau_max": 45.43
+   },
+   {
+    "name": "RL_hip_joint",
+    "q_lower": -1.0472,
+    "q_upper": 1.0472,
+    "dq_max": 30.1,
+    "tau_max": 23.7
+   },
+   {
+    "name": "RL_thigh_joint",
+    "q_lower": -0.5236,
+    "q_upper": 4.5379,
+    "dq_max": 30.1,
+    "tau_max": 23.7
+   },
+   {
+    "name": "RL_calf_joint",
+    "q_lower": -2.7227,
+    "q_upper": -0.83776,
+    "dq_max": 15.7,
+    "tau_max": 45.43
+   },
+   {
+    "name": "RR_hip_joint",
+    "q_lower": -1.0472,
+    "q_upper": 1.0472,
+    "dq_max": 30.1,
+    "tau_max": 23.7
+   },
+   {
+    "name": "RR_thigh_joint",
+    "q_lower": -0.5236,
+    "q_upper": 4.5379,
+    "dq_max": 30.1,
+    "tau_max": 23.7
+   },
+   {
+    "name": "RR_calf_joint",
+    "q_lower": -2.7227,
+    "q_upper": -0.83776,
+    "dq_max": 15.7,
+    "tau_max": 45.43
+   }
+  ]
+ },
+ "g1_29dof": {
+  "machine": "Unitree G1 humanoid 29-DOF",
+  "source_url": "https://raw.githubusercontent.com/unitreerobotics/unitree_ros/master/robots/g1_description/g1_29dof.urdf",
+  "n_joints": 29,
+  "joints": [
+   {
+    "name": "left_hip_pitch_joint",
+    "q_lower": -2.5307,
+    "q_upper": 2.8798,
+    "dq_max": 32.0,
+    "tau_max": 88.0
+   },
+   {
+    "name": "left_hip_roll_joint",
+    "q_lower": -0.5236,
+    "q_upper": 2.9671,
+    "dq_max": 32.0,
+    "tau_max": 88.0
+   },
+   {
+    "name": "left_hip_yaw_joint",
+    "q_lower": -2.7576,
+    "q_upper": 2.7576,
+    "dq_max": 32.0,
+    "tau_max": 88.0
+   },
+   {
+    "name": "left_knee_joint",
+    "q_lower": -0.087267,
+    "q_upper": 2.8798,
+    "dq_max": 20.0,
+    "tau_max": 139.0
+   },
+   {
+    "name": "left_ankle_pitch_joint",
+    "q_lower": -0.87267,
+    "q_upper": 0.5236,
+    "dq_max": 30.0,
+    "tau_max": 35.0
+   },
+   {
+    "name": "left_ankle_roll_joint",
+    "q_lower": -0.2618,
+    "q_upper": 0.2618,
+    "dq_max": 30.0,
+    "tau_max": 35.0
+   },
+   {
+    "name": "right_hip_pitch_joint",
+    "q_lower": -2.5307,
+    "q_upper": 2.8798,
+    "dq_max": 32.0,
+    "tau_max": 88.0
+   },
+   {
+    "name": "right_hip_roll_joint",
+    "q_lower": -2.9671,
+    "q_upper": 0.5236,
+    "dq_max": 32.0,
+    "tau_max": 88.0
+   },
+   {
+    "name": "right_hip_yaw_joint",
+    "q_lower": -2.7576,
+    "q_upper": 2.7576,
+    "dq_max": 32.0,
+    "tau_max": 88.0
+   },
+   {
+    "name": "right_knee_joint",
+    "q_lower": -0.087267,
+    "q_upper": 2.8798,
+    "dq_max": 20.0,
+    "tau_max": 139.0
+   },
+   {
+    "name": "right_ankle_pitch_joint",
+    "q_lower": -0.87267,
+    "q_upper": 0.5236,
+    "dq_max": 30.0,
+    "tau_max": 35.0
+   },
+   {
+    "name": "right_ankle_roll_joint",
+    "q_lower": -0.2618,
+    "q_upper": 0.2618,
+    "dq_max": 30.0,
+    "tau_max": 35.0
+   },
+   {
+    "name": "waist_yaw_joint",
+    "q_lower": -2.618,
+    "q_upper": 2.618,
+    "dq_max": 32.0,
+    "tau_max": 88.0
+   },
+   {
+    "name": "waist_roll_joint",
+    "q_lower": -0.52,
+    "q_upper": 0.52,
+    "dq_max": 30.0,
+    "tau_max": 35.0
+   },
+   {
+    "name": "waist_pitch_joint",
+    "q_lower": -0.52,
+    "q_upper": 0.52,
+    "dq_max": 30.0,
+    "tau_max": 35.0
+   },
+   {
+    "name": "left_shoulder_pitch_joint",
+    "q_lower": -3.0892,
+    "q_upper": 2.6704,
+    "dq_max": 37.0,
+    "tau_max": 25.0
+   },
+   {
+    "name": "left_shoulder_roll_joint",
+    "q_lower": -1.5882,
+    "q_upper": 2.2515,
+    "dq_max": 37.0,
+    "tau_max": 25.0
+   },
+   {
+    "name": "left_shoulder_yaw_joint",
+    "q_lower": -2.618,
+    "q_upper": 2.618,
+    "dq_max": 37.0,
+    "tau_max": 25.0
+   },
+   {
+    "name": "left_elbow_joint",
+    "q_lower": -1.0472,
+    "q_upper": 2.0944,
+    "dq_max": 37.0,
+    "tau_max": 25.0
+   },
+   {
+    "name": "left_wrist_roll_joint",
+    "q_lower": -1.972222054,
+    "q_upper": 1.972222054,
+    "dq_max": 37.0,
+    "tau_max": 25.0
+   },
+   {
+    "name": "left_wrist_pitch_joint",
+    "q_lower": -1.614429558,
+    "q_upper": 1.614429558,
+    "dq_max": 22.0,
+    "tau_max": 5.0
+   },
+   {
+    "name": "left_wrist_yaw_joint",
+    "q_lower": -1.614429558,
+    "q_upper": 1.614429558,
+    "dq_max": 22.0,
+    "tau_max": 5.0
+   },
+   {
+    "name": "right_shoulder_pitch_joint",
+    "q_lower": -3.0892,
+    "q_upper": 2.6704,
+    "dq_max": 37.0,
+    "tau_max": 25.0
+   },
+   {
+    "name": "right_shoulder_roll_joint",
+    "q_lower": -2.2515,
+    "q_upper": 1.5882,
+    "dq_max": 37.0,
+    "tau_max": 25.0
+   },
+   {
+    "name": "right_shoulder_yaw_joint",
+    "q_lower": -2.618,
+    "q_upper": 2.618,
+    "dq_max": 37.0,
+    "tau_max": 25.0
+   },
+   {
+    "name": "right_elbow_joint",
+    "q_lower": -1.0472,
+    "q_upper": 2.0944,
+    "dq_max": 37.0,
+    "tau_max": 25.0
+   },
+   {
+    "name": "right_wrist_roll_joint",
+    "q_lower": -1.972222054,
+    "q_upper": 1.972222054,
+    "dq_max": 37.0,
+    "tau_max": 25.0
+   },
+   {
+    "name": "right_wrist_pitch_joint",
+    "q_lower": -1.614429558,
+    "q_upper": 1.614429558,
+    "dq_max": 22.0,
+    "tau_max": 5.0
+   },
+   {
+    "name": "right_wrist_yaw_joint",
+    "q_lower": -1.614429558,
+    "q_upper": 1.614429558,
+    "dq_max": 22.0,
+    "tau_max": 5.0
+   }
+  ]
+ }
+}
