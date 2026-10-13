@@ -10,4 +10,4 @@
 Open here: official-URDF spec profiles (Z1/Go2/G1), spec-layer guard
 (joint-limit / velocity / effort / inter-frame rate), demo, artifacts.
 
-Related public artifacts: github.com/lsy1533133/agent-action-verifier
+Related public artifacts: github.com/PHM-Audit/agent-action-verifier
